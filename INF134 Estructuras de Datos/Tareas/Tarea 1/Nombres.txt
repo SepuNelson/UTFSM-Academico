@@ -1,0 +1,6 @@
+       Nombre        |     Rol     |  Paralelo |         Trabajo
+Nelson Sepúlveda     | 202004610-7 |    200    | Archivo Binario 
+Gonzalo Bahamondes   | 202073503-4 |    201    | Filtrar datos y seleccionar importantes
+Roberto Escobar      | 201904561-k |    200    | Archivo ASCCI
+
+Comentario extra: Todos trabajamos en todo el codigo.

@@ -1,0 +1,36 @@
+services:
+  cazarrecompensas:
+    build: ./cazarrecompensas
+    container_name: cazarrecompensas
+    networks:
+      - test_network
+    depends_on:
+      - gobierno
+  
+  gobierno:
+    build: ./gobierno
+    container_name: gobierno
+    ports:
+      - "50051:50051"
+    networks:
+      - test_network
+
+  submundo:
+    build: ./submundo
+    container_name: submundo
+    ports:
+      - "50053:50053"
+    networks:
+      - test_network
+
+  marina:
+    build: ./marina
+    container_name: marina
+    ports:
+      - "50052:50052"
+    networks:
+      - test_network
+  
+networks:
+  test_network:
+    external: false

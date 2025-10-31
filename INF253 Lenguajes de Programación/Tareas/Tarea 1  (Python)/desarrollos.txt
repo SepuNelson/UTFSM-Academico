@@ -1,0 +1,14 @@
+2500 + 1200 = 3700
+ANS + 860 * 6 = 8860
+ANS // 0 = Error
+
+ANS + 130 * 25 = Sin Resolver
+(2300 + 23 * (15) = Error
+500(7) = Error
+
+3000 * (5 - 23) // 5 = Error
+ANS + 25 // 2 * 13 = Sin Resolver
+(ANS - 2) - CUPON(1200) = Error
+
+(1750 * (12 - 10) - 13) = Error
+CUPON(1300, 10) + (3 * 5) + AN = Error

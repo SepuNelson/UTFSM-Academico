@@ -1,0 +1,131 @@
+syntax = "proto3";
+
+option go_package = "grpc-server/proto";
+package main;
+
+/*
+Message Definitions:
+- Empty: Mensaje Vacío.
+- Trainer: Entrenadores con varios atributos.
+- Tournament_List: Lista de torneos.
+- Tournament: Torneos con id y region del torneo.
+- Tournaments_Inscriptions_List: Lista de inscripciones de torneos.
+- Tournament_Inscription: Inscripciones de torneos por entrenador.
+- InscripcionRequest: Solicitud de inscripción a torneos.
+- InscripcionResponse: Respuesta de inscripción a torneos.
+*/
+
+// Mensaje vacío (LCPService - PublicarTorneos)
+message Empty {}
+
+// Mensaje de texto de respuesta (LCPService - PublicarTorneos)
+// Mensaje de texto de respuesta (CDPService - RecepcionCombate)
+message Response {
+  string mensaje = 1;
+}
+
+// Mensaje para los entrenadores (InscriptionRequest)
+// Mensaje para los entrenadores (Combate)
+message Trainer {
+  int32 id = 1;
+  string nombre = 2;
+  string region = 3;
+  int32 ranking = 4;
+  EstadoEntrenador estado = 5;
+  int32 suspension = 6;
+}
+
+// Mensaje para la lista de torneos (LCPService)
+message Tournament_List {
+  repeated Tournament torneos = 1;
+}
+
+// Mensaje para los torneos (Tournament_List)
+message Tournament {
+  int32 id = 1;
+  string region = 2;
+}
+
+// Mensaje para la lista de inscripciones de torneos
+message Tournaments_Inscriptions_List {
+  repeated Tournament_Inscription torneos = 1;
+}
+
+// Mensaje para las inscripciones de torneos
+message Tournament_Inscription {
+  int32 id_tournament = 1;
+  int32 id_trainer = 2;
+}
+
+// Mensaje para la solicitud de inscripción a torneos (LCPService)
+message InscripcionRequest {
+  Trainer entrenador = 1;
+  int32 id_torneo = 2;
+}
+
+// Mensaje para un combate (CDPservice)
+message Combate {
+  int32 combate_id = 1;
+  int32 torneo_id = 2;
+  Trainer entrenador1 = 3;
+  Trainer entrenador2 = 4;
+  string region = 5;
+}
+
+//
+message RegistroParticipante {
+  int32 IdEntrenador = 1;
+  string Nombre = 2;
+  int32 TorneoID = 3;
+  string Resultado = 4;
+  int32 RankingAntes = 5;
+  int32 RankingDespues = 6;
+}
+
+// 
+message ValidacionRequest {
+  int32 IdEntrenador1 = 1;
+  int32 IdEntrenador2 = 2;
+}
+
+//
+message ValidacionResponse {
+  bool valido = 1;
+  string mensaje = 2;
+}
+
+/*
+Enum Definitions:
+- EstadoEntrenador: Representa el estado de los entrenadores.
+*/
+
+// Enum para el estado de los entrenadores (Trainer)
+enum EstadoEntrenador {
+  ACTIVO = 0;
+  EXPULSADO = 1;
+  SUSPENDIDO = 2;
+  INSCRITO = 3;
+  EN_COMBATE = 4;
+  ESPERANDO_RESULTADO = 5;
+  FINALIZADO = 6;
+  PENALIZADO = 7;
+}
+
+/*
+LCPService: Defines the service for managing tournaments.
+- PublicarTorneos: Publica lista de torneos.
+- InscribirseTorneo: Inscribe al protagonista en un torneo.
+*/
+
+// Servicio de LCP
+service LCPService {
+  rpc PublicarTorneos (Empty) returns (Tournament_List);
+  rpc InscribirseTorneo (InscripcionRequest) returns (Response);
+  rpc RegistrarParticipacion (InscripcionRequest) returns (RegistroParticipante);
+  rpc ValidarEntrenadores(ValidacionRequest) returns (ValidacionResponse);
+}
+
+// Servicio del GYMREG
+service GYMREGService {
+  rpc AsignarCombate(Combate) returns (Response);
+}

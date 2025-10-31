@@ -1,0 +1,65 @@
+syntax = "proto3";
+
+package main;
+option go_package = "grpc-server/proto";
+
+/*
+Message Definitions:
+- Empty: Mensaje vacío para respuestas sin contenido.
+- PlayerInfoRequest: Información del jugador.
+- QueuePlayerResponse: Respuesta al intentar añadir un jugador a la cola.
+- PlayerStatusRequest: Solicitud de estado del jugador.
+- PlayerStatusResponse: Respuesta con el estado del jugador.
+*/
+
+message Empty {}
+
+message PlayerInfoRequest {
+  string player_id = 1;
+  string game_mode_preference = 2;
+}
+
+message QueuePlayerResponse {
+  StatusCode status_code = 1;
+  string message = 2;
+}
+
+message PlayerStatusRequest {
+  string player_id = 1;
+}
+
+message PlayerStatusResponse {
+  PlayerStatus status = 1;
+  string match_id = 2;
+  string server_clock = 3;
+}
+
+/*
+Enum Definitions:
+- PlayerStatus: Estados de un jugador.
+- StatusCode: Códigos de estado para las respuestas.
+*/
+
+enum PlayerStatus {
+  LIBRE = 0;
+  BUSCANDO_PARTIDA  = 1;
+  EN_PARTIDA = 2;
+}
+
+enum StatusCode {
+  EXITO = 0;
+  FALLO = 1;
+}
+
+/*
+MatchMaker Services: .
+- QueuePlayer: añade un jugador a la cola de matchmaking.
+- LeaveQueuePlayer: permite a un jugador abandonar la cola de matchmaking.
+- GetPlayerStatus: obtiene el estado de un jugador en el sistema de matchmaking.
+*/
+
+service MatchMaker {
+  rpc QueuePlayer(PlayerInfoRequest) returns (QueuePlayerResponse);
+  rpc LeaveQueuePlayer(PlayerInfoRequest) returns (Empty);
+  rpc GetPlayerStatus(PlayerStatusRequest) returns (PlayerStatusResponse);
+}

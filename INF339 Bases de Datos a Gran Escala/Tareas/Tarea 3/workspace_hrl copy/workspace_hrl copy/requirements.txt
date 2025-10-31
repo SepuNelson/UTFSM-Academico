@@ -1,0 +1,13 @@
+fastavro
+apache-beam
+apache-airflow==2.9.3
+pyarrow
+pandas
+python-snappy
+confluent-kafka
+minio
+boto3
+Faker
+redis
+psycopg
+requests

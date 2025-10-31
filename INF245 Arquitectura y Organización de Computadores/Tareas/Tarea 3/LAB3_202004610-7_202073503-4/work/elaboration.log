@@ -1,0 +1,29 @@
+Riviera-PRO 2022.04.117.8517(Linux64) 2023-05-31 23:31:41
+
+Elaboration top modules:
+Verilog Module                top_tb
+
+
+---------------------------------------------------------------------------------------
+Verilog Module          | Library | Info | Compiler Version      | Compilation Options
+---------------------------------------------------------------------------------------
+top_tb                  | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+top                     | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+Contador                | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+ROM                     | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+Splitter                | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+ALU                     | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+Resultado               | work    |      | 2022.04.117 (Linux64) | -timescale 1ns/1ns
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Library                 | Comment
+---------------------------------------------------------------------------------------
+work                    | None
+---------------------------------------------------------------------------------------
+
+
+Simulation Options: asim +access+r
+
+
+The performance of simulation is reduced. Version EDU Edition

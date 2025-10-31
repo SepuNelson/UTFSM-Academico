@@ -1,0 +1,115 @@
+syntax = "proto3";
+
+option go_package = "grpc-server/proto";
+package sistema;
+import "google/protobuf/empty.proto";  
+
+// --- Enums ---
+enum Peligrosidad {
+    BAJA = 0;
+    MEDIA = 1;
+    ALTA = 2;
+}
+
+enum EstadoPirata {
+    BUSCADO = 0;
+    CAPTURADO = 1;
+    EN_CAMINO = 2;
+    ENTREGADO = 3;
+    PERDIDO = 4;
+}
+
+enum MetodoEntrega {
+    MARINA = 0;
+    SUBMUNDO = 1;
+}
+
+// --- Mensajes ---
+message Pirata {
+    string id = 1;
+    string nombre = 2;
+    uint64 recompensa = 3;
+    Peligrosidad peligrosidad = 4;
+    EstadoPirata estado = 5;
+}
+
+message ListaPiratas {
+    repeated Pirata piratas = 1;
+}
+
+message SolicitudCaptura {
+    string id_pirata = 1;
+    string nombre_cazarrecompensas = 2;
+}
+
+message ResultadoCaptura {
+    bool exito = 1;
+    string mensaje = 2;
+}
+
+message Transporte {
+    string id_pirata = 1;
+    MetodoEntrega metodo = 2; // MARINA o SUBMUNDO
+    string nombre_cazarrecompensas = 3;
+}
+
+message ResultadoTransporte {
+    EstadoPirata estado_final = 1;
+    uint64 recompensa_esperada = 2;
+    string detalle = 3;
+}
+
+message EstadoCazarrecompensas {
+    string nombre_cazarrecompensas = 1;
+    float reputacion = 2;
+    uint64 total_ganado = 3;
+    repeated string historial = 4;
+}
+
+message AlertaActividad {
+    string mensaje = 1; // e.j "Alta actividad en el Submundo detectada"
+    int32 nivel_riesgo = 2; // podría ir de 1 a 10, por ejemplo
+}
+
+message EntregaPirata {
+  string nombre_cazarrecompensas = 1;
+  Pirata pirata = 2;
+  float reputacion = 3;
+  MetodoEntrega metodo = 4; // Método para decidir si es Marina o Submundo
+}
+
+message ResultadoEntrega {
+    bool aceptado = 1;
+    uint64 recompensa_pagada = 2;
+}
+
+//--- Servicios ---
+
+service GobiernoMundial {
+    rpc ListarPiratasBuscados(google.protobuf.Empty) returns (ListaPiratas);
+    rpc RegistrarCaptura(SolicitudCaptura) returns (ResultadoCaptura);
+    rpc ActualizarReputacion(EstadoCazarrecompensas) returns (google.protobuf.Empty);
+    rpc AlertarMarina(AlertaActividad) returns (google.protobuf.Empty);
+    rpc ConsultarEstadoCazarrecompensas(EstadoCazarrecompensas) returns (EstadoCazarrecompensas);
+    rpc RegistrarCazarrecompensas(EstadoCazarrecompensas) returns (ResultadoCaptura);
+    rpc ActualizarEstadoPirata(Pirata) returns (google.protobuf.Empty);
+}
+
+service Cazarrecompensas {
+    rpc TransportarPirata(Transporte) returns (ResultadoTransporte);
+    rpc ConsultarEstado(google.protobuf.Empty) returns (EstadoCazarrecompensas);
+    rpc ConsultarListaPiratas(google.protobuf.Empty) returns (ListaPiratas);
+    rpc ConsultarEstadoCazarrecompensas(EstadoCazarrecompensas) returns (EstadoCazarrecompensas);
+}
+
+service Marina {
+    rpc RecibirPirata (EntregaPirata) returns (ResultadoEntrega);
+    rpc RecibirAlerta (AlertaActividad) returns (google.protobuf.Empty);
+    rpc ConsultarListaPiratas(google.protobuf.Empty) returns (ListaPiratas);
+    rpc NotificarGobierno(EstadoCazarrecompensas) returns (google.protobuf.Empty);
+}
+
+service Submundo {
+    rpc ComprarPirata(EntregaPirata) returns (ResultadoEntrega);
+    rpc InterceptarTransporte(Pirata) returns (ResultadoTransporte);
+}

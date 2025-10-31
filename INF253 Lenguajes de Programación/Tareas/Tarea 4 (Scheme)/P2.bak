@@ -1,0 +1,18 @@
+#lang scheme
+
+;================================
+;               P R E G U N T A   2 
+;================================
+
+(define (cantidades_cola base lista)
+  )
+
+(define (cantidades_simple base lista)
+  )
+
+;EJEMPLOS
+(cantidades_cola 2 (list (lambda (x) (/ x 2)) (lambda (x) (* x 3))
+(lambda (x) (- 2 2))))
+
+(cantidades_cola 2 (list (lambda (x) (/ (+ x 2) 2)) (lambda (x) (* x
+4)) (lambda (x) (* (/ x 3) 2))))

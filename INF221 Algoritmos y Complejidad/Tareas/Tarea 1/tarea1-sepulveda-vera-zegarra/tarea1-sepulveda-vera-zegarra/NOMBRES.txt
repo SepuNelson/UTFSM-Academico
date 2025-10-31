@@ -1,0 +1,14 @@
+# Integrantes:
+## Luis Zegarra - 202073628-6
+
+## Nelson Sepulveda - 202004610-7
+
+## Rodrigo Vera - 202073567-0
+
+Durante el desarrollo de este laboratorio, los miembros del equipo participamos activamente en una sesión de trabajo en línea 
+a través de la plataforma Discord, empleando simultáneamente la herramienta LiveShare provista por Visual Studio Code. 
+El propósito de esta interacción fue facilitar la colaboración en tiempo real y la manipulación conjunta de los códigos objeto de estudio.
+
+Inicialmente, nos dedicamos a resolver el Problema 1 utilizando el método de Fuerza Bruta Recursiva. Posteriormente, abordamos 
+el Problema 2 siguiendo un enfoque de Programación Dinámica. En ambas instancias, los tres integrantes del equipo contribuyeron 
+de manera equitativa, aportando ideas y participando activamente en la redacción y ejecución del código correspondiente.

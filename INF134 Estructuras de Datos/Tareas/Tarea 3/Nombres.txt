@@ -1,0 +1,6 @@
+       Nombre        |     Rol     |  Paralelo |         Trabajo
+Nelson Sepúlveda     | 202004610-7 |    200    | Funciones 
+Gonzalo Bahamondes   | 202073503-4 |    201    | Manipulación de Archivo
+Roberto Escobar      | 201904561-k |    200    | Funciones
+
+Comentario extra: Todos trabajamos en todo el codigo.

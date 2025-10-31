@@ -1,0 +1,22 @@
+#lang scheme
+
+(define (armar_lista stock)
+  (define (armar_lista_aux stock acc)
+    (cond
+      ((null? stock) (reverse acc))
+      (else
+       (let* ((cantidad (car (car stock)))
+              (ingredientes (cadr (car stock)))
+              (disponibles (length ingredientes)))
+         (if (< cantidad disponibles)
+             (armar_lista_aux (cdr stock) acc)
+             (let ((cant_comprar (- cantidad disponibles)))
+               (if (> cant_comprar 0)
+                   (armar_lista_aux (cdr stock) (cons (list cant_comprar (car ingredientes)) acc))
+                   (armar_lista_aux (cdr stock) acc)))))))
+  )
+  (armar_lista_aux stock '())
+)
+
+; Ejemplo de uso: 
+(armar_lista '((5 (cebolla cebolla)) (3 (tomate tomate tomate)) (2 (ajo))))

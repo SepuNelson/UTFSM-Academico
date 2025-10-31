@@ -1,0 +1,73 @@
+;; The first three lines of this file were inserted by DrRacket. They record metadata
+;; about the language level of this file in a form that our tools can easily process.
+#reader(lib "htdp-beginner-reader.ss" "lang")((modname tarea4) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
+;================================
+;               P R E G U N T A   1 
+;================================
+
+(define (checkear cantidad lista)
+  (cond
+    ((= cantidad 0) (null? lista))
+    ((null? lista) (= cantidad 0))
+    (else (checkear (- cantidad 1) (cdr lista)))))
+
+;EJEMPLO
+(checkear 4 (list 1 2 5 4))
+
+;================================
+;               P R E G U N T A   2 
+;================================
+
+(define (cantidades_simple base lista)
+  (map (lambda (f) (f base)) lista))
+
+(define (cantidades_cola base lista)
+  (let ((helper
+         (lambda (funciones resultados)
+           (define (inner-helper funciones acumulador)
+             (cond
+               ((null? funciones) (reverse acumulador))
+               (else
+                (inner-helper (cdr funciones)
+                              (cons ((car funciones) base) acumulador))))
+             )
+           (inner-helper funciones '())))
+    (helper lista '()))))
+
+
+;EJEMPLO
+(cantidades_cola 2 (list (lambda (x) (/ x 2)) (lambda (x) (* x 3))
+(lambda (x) (- 2 2))))
+
+
+;================================
+;               P R E G U N T A   3 
+;================================
+
+(define (armar_lista stock)
+  (define (comprar cantidad lista)
+    (if (< cantidad 1)
+        '()
+        (cons (list (- cantidad 1) (car lista))
+              (comprar (- cantidad 1) (cdr lista))))
+  
+  (define (generar-compras lista-stock)
+    (map (lambda (x) (comprar (- (car x) (length (cdr x))) (cdr x))) lista-stock))
+  
+  (let ((compras (generar-compras stock)))
+    (apply append compras))))
+
+
+;EJEMPLO
+
+;================================
+;               P R E G U N T A   4 
+;================================
+
+;EJEMPLO
+
+;================================
+;               P R E G U N T A   5 
+;================================
+
+;EJEMPLO

@@ -1,0 +1,6 @@
+# Instrucciones de compilacion
+- Para ejecutar makefile, se tienen los siguiente comandos:
+
+- Ejecutar solo problema 1 : make problema1
+- Ejecutar solo problema 2 : make problema2
+- Ejecutar ambas a la vez : make all

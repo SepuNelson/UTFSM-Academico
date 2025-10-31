@@ -1,0 +1,8 @@
+       Nombre        |     Rol    
+Sebastián Richiardi  | 202030555-2
+Nelson Sepúlveda     | 202004610-7
+Rodrigo Vera         | 202073567-0
+
+Desarrollo:
+- Cada integrante desarrolló la tarea en conjunto (en reuniones de discord) a través de Visual Studio Code
+con la extensión LiveShare, que facilita el desarrollo simultaneo de la tarea.

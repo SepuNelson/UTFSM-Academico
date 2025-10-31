@@ -1,0 +1,17 @@
+#lang scheme
+
+;================================
+;               P R E G U N T A   1 
+;================================
+
+(define (checkear cantidad lista)
+  (cond
+    ((= cantidad 0) (null? lista))
+    ((null? lista) (= cantidad 0))
+    (else (checkear (- cantidad 1) (cdr lista)))))
+
+;EJEMPLOS
+(checkear 4 '(1 2 5 4))
+(checkear 2 '(a a c d e w w q t a v))
+(checkear 0 '())
+

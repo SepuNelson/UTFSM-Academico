@@ -1,0 +1,77 @@
+timestamp=1685590300830
+
+[~A]
+LastVerilogToplevel=top_tb
+ModifyID=1
+Version=74
+design.sv_testbench.sv=0*1751*3574
+
+[~MFT]
+0=10|0work.mgf|3574|0
+1=8|1work.mgf|10698|0
+3=16|3work.mgf|8599|0
+
+[$root]
+A/$root=22|||1*0
+BinL64/$root=3*0
+SLP=3*106
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c73a565f2ade592f8ac1c68f484c92163c7b687f94ff136790e0614f66190705
+
+[ALU]
+A/ALU=22|../design.sv|83|1*4346
+BinL64/ALU=3*3155
+R=../design.sv|83
+SLP=3*4823
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|b3eb40c25b2a3c0379c7730185183eecc57ca6db01e25f373b9556583992d834
+
+[Contador]
+A/Contador=22|../design.sv|5|1*374
+BinL64/Contador=3*174
+R=../design.sv|5
+SLP=3*644
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|5243bed0ec667d5818a49bd6180b101f6b143096d3c51d0a9c6fa1cf847b2f867c75f94cc2b3b4ce5b7a749aeedb6e21
+
+[ROM]
+A/ROM=22|../design.sv|28|1*1615
+BinL64/ROM=3*923
+R=../design.sv|28
+SLP=3*1785
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|46043f483c89b653159bfc3cb48ffe0bc57ca6db01e25f373b9556583992d834
+
+[Resultado]
+A/Resultado=22|../design.sv|123|1*6035
+BinL64/Resultado=3*5877
+R=../design.sv|123
+SLP=3*5987
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|589e2318bda738f611310b0f4b8d72845fe0f6cc11f37d48b53e35433dff82a0533c324331d61e5acc7338f8b50e840d
+
+[Splitter]
+A/Splitter=22|../design.sv|64|1*3166
+BinL64/Splitter=3*2322
+R=../design.sv|64
+SLP=3*2862
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|713361b49cf63f120a9426ef5ae406d9d6ba990fd61ab077d00f1513627f55739c6810527b7e91f190a82d92e86dfa42
+
+[top]
+A/top=22|../design.sv|135|1*6871
+BinL64/top=3*6117
+R=../design.sv|135
+SLP=3*7150
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|f1fdecad8dc292011c024b8d633bc5c7c57ca6db01e25f373b9556583992d834
+
+[top_tb]
+A/top_tb=22|../testbench.sv|1|1*10698
+BinL64/top_tb=3*7875
+R=../testbench.sv|1
+SLP=3*8599
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|b0d2e10044441fefc12247a6f126cc0cf573452c60d0d50ce8f6c8df1424193a
+
+[~U]
+$root=12|0*0|
+ALU=12|0*838|
+Contador=12|0*214|
+ROM=12|0*425|
+Resultado=12|0*1050|
+Splitter=12|0*618|
+top=12|0*1257|
+top_tb=12|0*1551||0x10

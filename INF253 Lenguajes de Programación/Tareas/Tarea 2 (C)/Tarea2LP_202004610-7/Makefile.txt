@@ -1,0 +1,23 @@
+CC = gcc
+CFLAGS = -Wall -Wextra -std=c99
+
+TARGET = TreasureFinder
+
+SRCS = TreasureFinder.c Tablero.c Bomba.c
+
+OBJS = $(SRCS:.c=.o)
+
+$(TARGET): $(OBJS)
+	$(CC) $(CFLAGS) -o $(TARGET) $(OBJS)
+
+
+%.o: %.c
+	$(CC) $(CFLAGS) -c $<
+
+clean:
+	rm -f $(OBJS) $(TARGET)
+
+run: $(TARGET)
+	./$(TARGET)
+
+.PHONY: clean run

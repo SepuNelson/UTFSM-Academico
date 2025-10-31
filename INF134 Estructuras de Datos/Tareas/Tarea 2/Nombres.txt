@@ -1,0 +1,6 @@
+       Nombre        |     Rol     |  Paralelo |         Trabajo
+Nelson Sepúlveda     | 202004610-7 |    200    | Función Main 
+Gonzalo Bahamondes   | 202073503-4 |    201    | TDA Equipos
+Roberto Escobar      | 201904561-k |    200    | TDA Torneo
+
+Comentario extra: Todos trabajamos en todo el codigo.

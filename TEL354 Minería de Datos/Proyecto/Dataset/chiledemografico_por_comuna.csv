@@ -1,0 +1,347 @@
+region,pob_regional,provincia,comuna,pob_comunal,sup_comuna_km2,densidad_hab_x_km2
+Region de Antofagasta,623851,El Loa,Ollagüe,321,2964,0.1082995951
+Region de Antofagasta,623851,El Loa,SAN PEDRO DE ATACAMA,10996,2343.9,4.691326422
+Region de Antofagasta,623851,El Loa,Calama,165731,15597,10.62582548
+Region de Antofagasta,623851,Region de Antofagasta,Sierra Gorda,10186,12886,0.7904702778
+Region de Antofagasta,623851,Region de Antofagasta,Taltal,13317,20405,0.6526341583
+Region de Antofagasta,623851,Region de Antofagasta,Mejillones,13467,3804,3.54022082
+Region de Antofagasta,623851,Region de Antofagasta,Antofagasta,361873,3071.8,117.8048701
+Region de Antofagasta,623851,Tocopilla,Maria Elena,6457,12197,0.5293924736
+Region de Antofagasta,623851,Tocopilla,Tocopilla,25186,4039,6.235701906
+Region de Arica y Parinacota,237082,Arica,Camarones,1255,3927,0.3195823784
+Region de Arica y Parinacota,237082,Arica,Arica,221364,479.9,461.2710981
+Region de Arica y Parinacota,237082,Parinacota,General Lagos,684,2244,0.3048128342
+Region de Arica y Parinacota,237082,Parinacota,Putre,2765,590.3,4.684058953
+Region de Atacama,304580,Chañaral,Chañaral,12219,5772,2.116943867
+Region de Atacama,304580,Chañaral,Diego de Almagro,13925,18664,0.746088727
+Region de Atacama,304580,Copiapo,Tierra Amarilla,14019,11191,1.252703065
+Region de Atacama,304580,Copiapo,Caldera,17662,4667,3.784443968
+Region de Atacama,304580,Copiapo,Copiapo,153937,16681,9.228283676
+Region de Atacama,304580,Huasco,Alto del Carmen,5299,5939,0.8922377505
+Region de Atacama,304580,Huasco,Freirina,7041,3578,1.967859139
+Region de Atacama,304580,Huasco,Huasco,10149,1601,6.339163023
+Region de Atacama,304580,Huasco,Vallenar,51917,7084,7.328769057
+Region de Aysen del General Carlos Ibañez del Campo,105382,Aysen,Guaitecas,1843,62.1,29.67793881
+Region de Aysen del General Carlos Ibañez del Campo,105382,Aysen,Cisnes,6517,1609.3,4.049586777
+Region de Aysen del General Carlos Ibañez del Campo,105382,Aysen,Aysen,23959,2979.6,8.041012216
+Region de Aysen del General Carlos Ibañez del Campo,105382,Capitan Prat,Tortel,523,1971.1,0.2653340774
+Region de Aysen del General Carlos Ibañez del Campo,105382,Capitan Prat,Region del Libertador General Bernardo O'Higgins,625,8182.5,0.07638252368
+Region de Aysen del General Carlos Ibañez del Campo,105382,Capitan Prat,Cochrane,3490,8599.5,0.4058375487
+Region de Aysen del General Carlos Ibañez del Campo,105382,Coyhaique,Lago Verde,852,5422.3,0.1571288936
+Region de Aysen del General Carlos Ibañez del Campo,105382,Coyhaique,Coyhaique,57818,7290.2,7.930920962
+Region de Aysen del General Carlos Ibañez del Campo,105382,General Carrera,Rio Ibañez,2666,5997.2,0.4445407857
+Region de Aysen del General Carlos Ibañez del Campo,105382,General Carrera,Chile Chico,4865,5737.1,0.8479894023
+Region de Coquimbo,793049,Choapa,Canela,9093,2197,4.138825671
+Region de Coquimbo,793049,Choapa,Los Vilos,21382,1861,11.48952176
+Region de Coquimbo,793049,Choapa,Salamanca,29347,3445,8.518722787
+Region de Coquimbo,793049,Choapa,Illapel,30848,2629,11.73373906
+Region de Coquimbo,793049,Elqui,La Higuera,4241,4158,1.01996152
+Region de Coquimbo,793049,Elqui,Paihuano,4497,149.5,30.08026756
+Region de Coquimbo,793049,Elqui,Andacollo,11044,310,35.62580645
+Region de Coquimbo,793049,Elqui,Vicuña,27771,7610,3.649277267
+Region de Coquimbo,793049,Elqui,La Serena,221054,1893,116.7744321
+Region de Coquimbo,793049,Elqui,COQUIMBO,227730,142.9,1593.63191
+Region de Coquimbo,793049,Limari,Rio Hurtado,4278,2117,2.020784128
+Region de Coquimbo,793049,Limari,Punitaqui,10956,1339,8.182225541
+Region de Coquimbo,793049,Limari,Combarbala,13322,1896,7.026371308
+Region de Coquimbo,793049,Limari,Monte Patria,30751,4366,7.043289052
+Region de Coquimbo,793049,Limari,Ovalle,111272,3835,29.0148631
+Region de La Araucania,994888,Cautin,Melipeuco,6138,1107,5.544715447
+Region de La Araucania,994888,Cautin,Perquenco,6905,331,20.86102719
+Region de La Araucania,994888,Cautin,Curarrehue,7489,1171,6.395388557
+Region de La Araucania,994888,Cautin,Tolten,9722,860,11.30465116
+Region de La Araucania,994888,Cautin,Cholchol,11611,428,27.12850467
+Region de La Araucania,994888,Cautin,Galvarino,11996,568,21.11971831
+Region de La Araucania,994888,Cautin,PUERTO SAAVEDRA,12450,401,31.04738155
+Region de La Araucania,994888,Cautin,Gorbea,14414,695,20.73956835
+Region de La Araucania,994888,Cautin,Teodoro Schmidt,15045,650,23.14615385
+Region de La Araucania,994888,Cautin,Cunco,17526,1907,9.190351337
+Region de La Araucania,994888,Cautin,Loncoche,23612,977,24.1678608
+Region de La Araucania,994888,Cautin,Carahue,24533,1341,18.2945563
+Region de La Araucania,994888,Cautin,Freire,24606,935,26.31657754
+Region de La Araucania,994888,Cautin,Pitrufquen,24837,581,42.74870912
+Region de La Araucania,994888,Cautin,Vilcun,28151,1421,19.81069669
+Region de La Araucania,994888,Cautin,Pucon,28523,1249,22.83666934
+Region de La Araucania,994888,Cautin,Nueva Imperial,32510,733,44.35197817
+Region de La Araucania,994888,Cautin,Lautaro,38013,901,42.18978912
+Region de La Araucania,994888,Cautin,Villarrica,55478,1291,42.97288923
+Region de La Araucania,994888,Cautin,Padre Las Casas,76126,401,189.840399
+Region de La Araucania,994888,Cautin,Temuco,282415,464,608.6530172
+Region de La Araucania,994888,Malleco,Los Sauces,7265,850,8.547058824
+Region de La Araucania,994888,Malleco,Ercilla,7733,500,15.466
+Region de La Araucania,994888,Malleco,Lumaco,9548,1119,8.532618409
+Region de La Araucania,994888,Malleco,Renaico,10250,267,38.38951311
+Region de La Araucania,994888,Malleco,Lonquimay,10251,3914,2.619059785
+Region de La Araucania,994888,Malleco,Puren,11779,465,25.3311828
+Region de La Araucania,994888,Malleco,Curacautin,17413,1664,10.46454327
+Region de La Araucania,994888,Malleco,Traiguen,18843,908,20.75220264
+Region de La Araucania,994888,Malleco,Collipulli,24598,1296,18.97993827
+Region de La Araucania,994888,Malleco,Victoria,34182,1256,27.21496815
+Region de La Araucania,994888,Malleco,Angol,53262,1194,44.6080402
+Region de Los Lagos,870227,Chiloe,Curaco de Velez,3829,80,47.8625
+Region de Los Lagos,870227,Chiloe,Puqueldon,3921,97,40.42268041
+Region de Los Lagos,870227,Chiloe,Queilen,5385,333,16.17117117
+Region de Los Lagos,870227,Chiloe,Quinchao,8088,161,50.23602484
+Region de Los Lagos,870227,Chiloe,Quemchi,8352,440,18.98181818
+Region de Los Lagos,870227,Chiloe,Dalcahue,13762,1239,11.10734463
+Region de Los Lagos,870227,Chiloe,Chonchi,14858,1362,10.90895742
+Region de Los Lagos,870227,Chiloe,Quellon,27192,3244,8.382244143
+Region de Los Lagos,870227,Chiloe,Ancud,38991,1752,22.25513699
+Region de Los Lagos,870227,Chiloe,Castro,43807,473,92.61522199
+Region de Los Lagos,870227,Llanquihue,Cochamo,4023,3911,1.028637177
+Region de Los Lagos,870227,Llanquihue,Fresia,12261,1278,9.593896714
+Region de Los Lagos,870227,Llanquihue,Maullin,14216,861,16.51103368
+Region de Los Lagos,870227,Llanquihue,Los Muermos,17068,1246,13.69823435
+Region de Los Lagos,870227,Llanquihue,Llanquihue,17591,421,41.78384798
+Region de Los Lagos,870227,Llanquihue,Frutillar,18428,831,22.17569194
+Region de Los Lagos,870227,Llanquihue,Calbuco,33985,591,57.50423012
+Region de Los Lagos,870227,Llanquihue,Puerto Varas,44578,4065,10.96629766
+Region de Los Lagos,870227,Llanquihue,Puerto Montt,245902,1673,146.9826659
+Region de Los Lagos,870227,Osorno,San Juan de la Costa,7512,1517,4.951878708
+Region de Los Lagos,870227,Osorno,Puerto Octay,8999,1796,5.010579065
+Region de Los Lagos,870227,Osorno,San Pablo,10030,637,15.74568289
+Region de Los Lagos,870227,Osorno,Puyehue,11667,1598,7.301001252
+Region de Los Lagos,870227,Osorno,Rio Negro,14085,1266,11.12559242
+Region de Los Lagos,870227,Osorno,Purranque,20369,1459,13.96093215
+Region de Los Lagos,870227,Osorno,Osorno,161460,951,169.7791798
+Region de Los Lagos,870227,Palena,Palena,1711,2764,0.6190303907
+Region de Los Lagos,870227,Palena,Futaleufu,2623,1280,2.04921875
+Region de Los Lagos,870227,Palena,Chaiten,5071,8471,0.5986306221
+Region de Los Lagos,870227,Palena,Hualaihue,8944,2788,3.208034433
+Region de Los Rios,398493,Ranco,Lago Ranco,9896,1763,5.613159387
+Region de Los Rios,398493,Ranco,Futrono,14665,2121,6.914191419
+Region de Los Rios,398493,Ranco,Rio Bueno,31372,2212,14.18264014
+Region de Los Rios,398493,Ranco,La Union,38036,213.7,177.9878334
+Region de Los Rios,398493,Valdivia,Corral,5302,76.7,69.12646675
+Region de Los Rios,398493,Valdivia,MAFIL,7095,583,12.16981132
+Region de Los Rios,398493,Valdivia,Lanco,16752,532,31.4887218
+Region de Los Rios,398493,Valdivia,Los Lagos,19634,179.1,109.6259073
+Region de Los Rios,398493,Valdivia,Paillaco,20188,896,22.53125
+Region de Los Rios,398493,Valdivia,Mariquina,21278,132.1,161.0749432
+Region de Los Rios,398493,Valdivia,Panguipulli,34539,3292,10.4917983
+Region de Los Rios,398493,Valdivia,Valdivia,166080,1016,163.4645669
+Region de Magallanes y la Antartica Chilena,171293,Antartica Chilena,Antartica,138,125025.76,0.001103772535
+Region de Magallanes y la Antartica Chilena,171293,Antartica Chilena,Cabo de Hornos,2063,21551,0.09572641641
+Region de Magallanes y la Antartica Chilena,171293,Magallanes,Laguna Blanca,274,3696,0.07413419913
+Region de Magallanes y la Antartica Chilena,171293,Magallanes,Rio Verde,617,17248,0.03577226345
+Region de Magallanes y la Antartica Chilena,171293,Magallanes,San Gregorio,799,6884,0.1160662406
+Region de Magallanes y la Antartica Chilena,171293,Magallanes,Punta Arenas,131592,17846,7.373753222
+Region de Magallanes y la Antartica Chilena,171293,Tierra del Fuego,Timaukel,405,10759,0.03764290362
+Region de Magallanes y la Antartica Chilena,171293,Tierra del Fuego,Primavera,1158,6530,0.1773353752
+Region de Magallanes y la Antartica Chilena,171293,Tierra del Fuego,Porvenir,6801,9707,0.7006284125
+Region de Magallanes y la Antartica Chilena,171293,ultima Esperanza,Torres del Paine,1209,6630,0.1823529412
+Region de Magallanes y la Antartica Chilena,171293,ultima Esperanza,PUERTO NATALES,21477,49924,0.4301938947
+Region de Ñuble,500517,Diguillin,Pemuco,8448,563,15.0053286
+Region de Ñuble,500517,Diguillin,Pinto,10827,1164,9.301546392
+Region de Ñuble,500517,Diguillin,El Carmen,12044,664,18.13855422
+Region de Ñuble,500517,Diguillin,San Ignacio,16079,364,44.17307692
+Region de Ñuble,500517,Diguillin,Quillon,17485,423,41.3356974
+Region de Ñuble,500517,Diguillin,Yungay,17787,824,21.58616505
+Region de Ñuble,500517,Diguillin,Bulnes,21493,425,50.57176471
+Region de Ñuble,500517,Diguillin,Chillan Viejo,30907,292,105.8458904
+Region de Ñuble,500517,Diguillin,Chillan,184739,511,361.5244618
+Region de Ñuble,500517,Itata,Portezuelo,4862,282,17.24113475
+Region de Ñuble,500517,Itata,Cobquecura,5012,570,8.792982456
+Region de Ñuble,500517,Itata,Ninhue,5213,401,13
+Region de Ñuble,500517,Itata,Treguaco,5401,313,17.25559105
+Region de Ñuble,500517,Itata,Ranquil,5755,248,23.20564516
+Region de Ñuble,500517,Itata,Quirihue,11594,589,19.68421053
+Region de Ñuble,500517,Itata,Coelemu,15995,342,46.76900585
+Region de Ñuble,500517,Punilla,San Fabian,4308,1568,2.74744898
+Region de Ñuble,500517,Punilla,Ñiquen,11152,493,22.62068966
+Region de Ñuble,500517,Punilla,San Nicolas,11603,491,23.63136456
+Region de Ñuble,500517,Punilla,Coihueco,26881,1777,15.12718064
+Region de Ñuble,500517,Punilla,San Carlos,53024,874,60.66819222
+Region de Tarapaca,342129,Iquique,Alto Hospicio,108375,573,189.1361257
+Region de Tarapaca,342129,Iquique,Iquique,191468,2262,84.64544651
+Region de Tarapaca,342129,Tamarugal,Camiña,1250,2200,0.5681818182
+Region de Tarapaca,342129,Tamarugal,Colchane,1728,4016,0.4302788845
+Region de Tarapaca,342129,Tamarugal,Huara,2730,10475,0.2606205251
+Region de Tarapaca,342129,Tamarugal,Pica,9296,8934,1.040519364
+Region de Tarapaca,342129,Tamarugal,Pozo Almonte,15711,13766,1.141290135
+Region de Valparaiso,1885948,Isla de Pascua,Isla de Pascua,7750,164,47.25609756
+Region de Valparaiso,1885948,Los Andes,Rinconada,10207,123,82.98373984
+Region de Valparaiso,1885948,Los Andes,Calle Larga,14832,322,46.0621118
+Region de Valparaiso,1885948,Los Andes,San Esteban,18855,1362,13.84361233
+Region de Valparaiso,1885948,Los Andes,Los Andes,66708,1248,53.45192308
+Region de Valparaiso,1885948,Marga Marga,Olmue,17516,232,75.5
+Region de Valparaiso,1885948,Marga Marga,Limache,46121,294,156.8741497
+Region de Valparaiso,1885948,Marga Marga,Villa Alemana,126548,97,1304.618557
+Region de Valparaiso,1885948,Marga Marga,Quilpue,151708,537,282.5102421
+Region de Valparaiso,1885948,Petorca,Papudo,6356,166,38.28915663
+Region de Valparaiso,1885948,Petorca,Zapallar,7339,288,25.48263889
+Region de Valparaiso,1885948,Petorca,Petorca,9826,1517,6.477257746
+Region de Valparaiso,1885948,Petorca,Cabildo,19388,1455,13.32508591
+Region de Valparaiso,1885948,Petorca,La Ligua,35390,1163,30.42992261
+Region de Valparaiso,1885948,Quillota,Hijuelas,17988,267,67.37078652
+Region de Valparaiso,1885948,Quillota,La Cruz,22098,78,283.3076923
+Region de Valparaiso,1885948,Quillota,Nogales,22120,405,54.61728395
+Region de Valparaiso,1885948,Quillota,La Calera,50554,6.1,8287.540984
+Region de Valparaiso,1885948,Quillota,Quillota,90517,302,299.7251656
+Region de Valparaiso,1885948,Region de Valparaiso,Juan Fernandez,926,148,6.256756757
+Region de Valparaiso,1885948,Region de Valparaiso,Puchuncavi,18546,300,61.82
+Region de Valparaiso,1885948,Region de Valparaiso,Casablanca,26867,953,28.19202518
+Region de Valparaiso,1885948,Region de Valparaiso,Quintero,31923,148,215.6959459
+Region de Valparaiso,1885948,Region de Valparaiso,Concon,42152,76,554.6315789
+Region de Valparaiso,1885948,Region de Valparaiso,VALPARAISO,296655,40.2,7379.477612
+Region de Valparaiso,1885948,Region de Valparaiso,Viña del Mar,334248,122,2739.737705
+Region de Valparaiso,1885948,San Antonio,Santo Domingo,10900,536,20.3358209
+Region de Valparaiso,1885948,San Antonio,El Tabo,13286,99,134.2020202
+Region de Valparaiso,1885948,San Antonio,Algarrobo,13817,176,78.50568182
+Region de Valparaiso,1885948,San Antonio,El Quisco,15955,51,312.8431373
+Region de Valparaiso,1885948,San Antonio,Cartagena,22738,246,92.43089431
+Region de Valparaiso,1885948,San Antonio,San Antonio,91350,405,225.5555556
+Region de Valparaiso,1885948,San Felipe de Aconcagua,Panquehue,7273,122,59.6147541
+Region de Valparaiso,1885948,San Felipe de Aconcagua,Catemu,13998,362,38.66850829
+Region de Valparaiso,1885948,San Felipe de Aconcagua,Santa Maria,15241,166,91.81325301
+Region de Valparaiso,1885948,San Felipe de Aconcagua,Putaendo,16754,1474,11.36635007
+Region de Valparaiso,1885948,San Felipe de Aconcagua,LLAY LLAY,24608,349,70.51002865
+Region de Valparaiso,1885948,San Felipe de Aconcagua,San Felipe,76844,186,413.1397849
+Region del Biobio,1636209,Arauco,Contulmo,6031,962,6.269230769
+Region del Biobio,1636209,Arauco,Tirua,10417,624,16.69391026
+Region del Biobio,1636209,Arauco,Los Alamos,21035,599,35.11686144
+Region del Biobio,1636209,Arauco,Lebu,25522,561,45.49376114
+Region del Biobio,1636209,Arauco,Curanilahue,32288,994,32.48289738
+Region del Biobio,1636209,Arauco,Cañete,34537,760,45.44342105
+Region del Biobio,1636209,Arauco,Arauco,36257,956,37.92573222
+Region del Biobio,1636209,Concepcion,Florida,10624,609,17.44499179
+Region del Biobio,1636209,Concepcion,Santa Juana,13749,731,18.80848153
+Region del Biobio,1636209,Concepcion,Hualqui,24333,531,45.82485876
+Region del Biobio,1636209,Concepcion,Lota,43535,136,320.1102941
+Region del Biobio,1636209,Concepcion,Penco,47367,108,438.5833333
+Region del Biobio,1636209,Concepcion,Tome,54946,495,111.0020202
+Region del Biobio,1636209,Concepcion,Chiguayante,85938,72,1193.583333
+Region del Biobio,1636209,Concepcion,Hualpen,91773,54,1699.5
+Region del Biobio,1636209,Concepcion,Coronel,116262,279,416.7096774
+Region del Biobio,1636209,Concepcion,San Pedro de la Paz,131808,113,1166.442478
+Region del Biobio,1636209,Concepcion,Talcahuano,151749,92,1649.445652
+Region del Biobio,1636209,Concepcion,Concepcion,223574,222,1007.09009
+Region del Biobio,1636209,Region del Biobio,San Rosendo,3412,92,37.08695652
+Region del Biobio,1636209,Region del Biobio,Quilaco,3988,1124,3.548042705
+Region del Biobio,1636209,Region del Biobio,Antuco,4073,1884,2.161889597
+Region del Biobio,1636209,Region del Biobio,Alto bio bio,5923,212.5,27.87294118
+Region del Biobio,1636209,Region del Biobio,Quilleco,9587,1122,8.54456328
+Region del Biobio,1636209,Region del Biobio,Negrete,9737,157,62.01910828
+Region del Biobio,1636209,Region del Biobio,Santa Barbara,13773,1255,10.97450199
+Region del Biobio,1636209,Region del Biobio,Tucapel,14134,915,15.44699454
+Region del Biobio,1636209,Region del Biobio,Yumbel,21198,727,29.15818432
+Region del Biobio,1636209,Region del Biobio,Laja,22389,340,65.85
+Region del Biobio,1636209,Region del Biobio,Nacimiento,26315,935,28.14438503
+Region del Biobio,1636209,Region del Biobio,Cabrero,28573,640,44.6453125
+Region del Biobio,1636209,Region del Biobio,Mulchen,29627,1925,15.39064935
+Region del Biobio,1636209,Region del Biobio,Los Angeles,202331,1748,115.75
+Region del Libertador General Bernardo O'Higgins,954279,Cachapoal,Coinco,7359,98,75.09183673
+Region del Libertador General Bernardo O'Higgins,954279,Cachapoal,Codegua,12988,287,45.2543554
+Region del Libertador General Bernardo O'Higgins,954279,Cachapoal,Quinta de Tilcoco,13002,93,139.8064516
+Region del Libertador General Bernardo O'Higgins,954279,Cachapoal,Malloa,13407,113,118.6460177
+Region del Libertador General Bernardo O'Higgins,954279,Cachapoal,Olivar,13608,45,302.4
+Region del Libertador General Bernardo O'Higgins,954279,Cachapoal,Peumo,14313,153,93.54901961
+Region del Libertador General Bernardo O'Higgins,954279,Cachapoal,Coltauco,19597,225,87.09777778
+Region del Libertador General Bernardo O'Higgins,954279,Cachapoal,Pichidegua,19714,320,61.60625
+Region del Libertador General Bernardo O'Higgins,954279,Cachapoal,Doñihue,20887,78,267.7820513
+Region del Libertador General Bernardo O'Higgins,954279,Cachapoal,Las Cabras,24640,749,32.89719626
+Region del Libertador General Bernardo O'Higgins,954279,Cachapoal,SAN FRANCISCO DE MOSTAZAL,25343,524,48.36450382
+Region del Libertador General Bernardo O'Higgins,954279,Cachapoal,Requinoa,27968,673,41.55720654
+Region del Libertador General Bernardo O'Higgins,954279,Cachapoal,Graneros,33437,113,295.9026549
+Region del Libertador General Bernardo O'Higgins,954279,Cachapoal,San Vicente,46766,476,98.24789916
+Region del Libertador General Bernardo O'Higgins,954279,Cachapoal,Machali,52505,2586,20.30355762
+Region del Libertador General Bernardo O'Higgins,954279,Cachapoal,Rengo,58825,592,99.36655405
+Region del Libertador General Bernardo O'Higgins,954279,Cachapoal,Rancagua,241774,260,929.9
+Region del Libertador General Bernardo O'Higgins,954279,Cardenal Caro,La Estrella,3041,435,6.990804598
+Region del Libertador General Bernardo O'Higgins,954279,Cardenal Caro,Paredones,6188,562,11.01067616
+Region del Libertador General Bernardo O'Higgins,954279,Cardenal Caro,Litueche,6294,619,10.16801292
+Region del Libertador General Bernardo O'Higgins,954279,Cardenal Caro,Navidad,6641,300,22.13666667
+Region del Libertador General Bernardo O'Higgins,954279,Cardenal Caro,MARCHIGUE,7308,660,11.07272727
+Region del Libertador General Bernardo O'Higgins,954279,Cardenal Caro,Pichilemu,16394,749,21.88785047
+Region del Libertador General Bernardo O'Higgins,954279,Colchagua,Pumanque,3421,441,7.757369615
+Region del Libertador General Bernardo O'Higgins,954279,Colchagua,Lolol,6811,597,11.40871022
+Region del Libertador General Bernardo O'Higgins,954279,Colchagua,Placilla,8738,147,59.44217687
+Region del Libertador General Bernardo O'Higgins,954279,Colchagua,Peralillo,11007,283,38.89399293
+Region del Libertador General Bernardo O'Higgins,954279,Colchagua,Palmilla,12482,237,52.66666667
+Region del Libertador General Bernardo O'Higgins,954279,Colchagua,Chepica,15037,503,29.89463221
+Region del Libertador General Bernardo O'Higgins,954279,Colchagua,Nancagua,17833,111,160.6576577
+Region del Libertador General Bernardo O'Higgins,954279,Colchagua,Chimbarongo,35399,498,71.08232932
+Region del Libertador General Bernardo O'Higgins,954279,Colchagua,Santa Cruz,37855,420,90.13095238
+Region del Libertador General Bernardo O'Higgins,954279,Colchagua,San Fernando,73973,2441,30.30438345
+Region del Maule,1092575,Cauquenes,Pelluhue,7571,371,20.40700809
+Region del Maule,1092575,Cauquenes,Chanco,8928,530,16.84528302
+Region del Maule,1092575,Cauquenes,Cauquenes,40441,2126,19.02210724
+Region del Maule,1092575,Curico,Vichuquen,4322,426,10.14553991
+Region del Maule,1092575,Curico,Licanten,6653,273,24.36996337
+Region del Maule,1092575,Curico,Hualañe,9657,629,15.35294118
+Region del Maule,1092575,Curico,Rauco,10484,309,33.92880259
+Region del Maule,1092575,Curico,Romeral,15187,1597,9.509705698
+Region del Maule,1092575,Curico,Sagrada Familia,18544,549,33.77777778
+Region del Maule,1092575,Curico,Teno,28921,618,46.79773463
+Region del Maule,1092575,Curico,Molina,45976,1552,29.62371134
+Region del Maule,1092575,Curico,Curico,149136,1328,112.3012048
+Region del Maule,1092575,Linares,Villa Alegre,16221,190,85.37368421
+Region del Maule,1092575,Linares,Yerbas Buenas,18081,262,69.01145038
+Region del Maule,1092575,Linares,Retiro,19974,827,24.15235792
+Region del Maule,1092575,Linares,Colbun,20765,2900,7.160344828
+Region del Maule,1092575,Linares,Longavi,30534,1454,21
+Region del Maule,1092575,Linares,Parral,41637,1638,25.41941392
+Region del Maule,1092575,Linares,San Javier,45547,1313,34.68926123
+Region del Maule,1092575,Linares,Linares,93602,1466,63.84856753
+Region del Maule,1092575,Talca,Empedrado,4142,565,7.330973451
+Region del Maule,1092575,Talca,Pencahue,8245,957,8.615464995
+Region del Maule,1092575,Talca,Pelarco,8422,332,25.36746988
+Region del Maule,1092575,Talca,San Rafael,9191,264,34.81439394
+Region del Maule,1092575,Talca,Curepto,9448,1074,8.797020484
+Region del Maule,1092575,Talca,Rio Claro,13906,431,32.26450116
+Region del Maule,1092575,Talca,San Clemente,43269,4504,9.606793961
+Region del Maule,1092575,Talca,Constitucion,46068,1344,34.27678571
+Region del Maule,1092575,Talca,MAULE,49721,19,2616.894737
+Region del Maule,1092575,Talca,Talca,220357,232,949.8146552
+Region Metropolitana,7508690,Chacabuco,Til-til,19312,653,29.57427259
+Region Metropolitana,7508690,Chacabuco,Lampa,102034,452,225.7389381
+Region Metropolitana,7508690,Chacabuco,Colina,146207,971,150.5736354
+Region Metropolitana,7508690,Cordillera,San Jose de Maipo,18189,4995,3.641441441
+Region Metropolitana,7508690,Cordillera,Pirque,26521,445,59.59775281
+Region Metropolitana,7508690,Cordillera,Puente Alto,568106,88,6455.75
+Region Metropolitana,7508690,Maipo,Calera de Tango,25392,73,347.8356164
+Region Metropolitana,7508690,Maipo,Paine,72759,678,107.3141593
+Region Metropolitana,7508690,Maipo,Buin,96614,214,451.4672897
+Region Metropolitana,7508690,Maipo,San Bernardo,301313,155,1943.954839
+Region Metropolitana,7508690,Melipilla,Alhue,6444,845,7.626035503
+Region Metropolitana,7508690,Melipilla,San Pedro,9726,788,12.34263959
+Region Metropolitana,7508690,Melipilla,Maria Pinto,13590,395,34.40506329
+Region Metropolitana,7508690,Melipilla,Curacavi,32579,693,47.01154401
+Region Metropolitana,7508690,Melipilla,Melipilla,123627,1345,91.91598513
+Region Metropolitana,7508690,Santiago,Cerrillos,80832,21,3849.142857
+Region Metropolitana,7508690,Santiago,San Ramon,82900,7,11842.85714
+Region Metropolitana,7508690,Santiago,Vitacura,85384,28,3049.428571
+Region Metropolitana,7508690,Santiago,La Cisterna,90119,10,9011.9
+Region Metropolitana,7508690,Santiago,La Reina,92787,23,4034.217391
+Region Metropolitana,7508690,Santiago,San Joaquin,94492,10,9449.2
+Region Metropolitana,7508690,Santiago,Lo Prado,96249,7,13749.85714
+Region Metropolitana,7508690,Santiago,Huechuraba,98671,45,2192.688889
+Region Metropolitana,7508690,Santiago,Lo Espejo,98804,7,14114.85714
+Region Metropolitana,7508690,Santiago,Independencia,100281,7,14325.85714
+Region Metropolitana,7508690,Santiago,Pedro Aguirre Cerda,101174,10,10117.4
+Region Metropolitana,7508690,Santiago,Lo Barnechea,105833,1024,103.3525391
+Region Metropolitana,7508690,Santiago,San Miguel,107954,10,10795.4
+Region Metropolitana,7508690,Santiago,Quinta Normal,110026,12,9168.833333
+Region Metropolitana,7508690,Santiago,Macul,116534,13,8964.153846
+Region Metropolitana,7508690,Santiago,La Granja,116571,10,11657.1
+Region Metropolitana,7508690,Santiago,Conchali,126955,11,11541.36364
+Region Metropolitana,7508690,Santiago,Cerro Navia,132622,11,12056.54545
+Region Metropolitana,7508690,Santiago,Providencia,142079,14,10148.5
+Region Metropolitana,7508690,Santiago,Estacion Central,147041,14,10502.92857
+Region Metropolitana,7508690,Santiago,Renca,147151,24,6131.291667
+Region Metropolitana,7508690,Santiago,Recoleta,157851,16,9865.6875
+Region Metropolitana,7508690,Santiago,El Bosque,162505,14,11607.5
+Region Metropolitana,7508690,Santiago,La Pintana,177335,31,5720.483871
+Region Metropolitana,7508690,Santiago,Ñuñoa,208237,17,12249.23529
+Region Metropolitana,7508690,Santiago,Quilicura,210410,58,3627.758621
+Region Metropolitana,7508690,Santiago,Pudahuel,230293,197,1169
+Region Metropolitana,7508690,Santiago,Peñalolen,241599,54,4474.055556
+Region Metropolitana,7508690,Santiago,Las Condes,294838,99,2978.161616
+Region Metropolitana,7508690,Santiago,La Florida,366916,71,5167.830986
+Region Metropolitana,7508690,Santiago,Santiago,404495,22,18386.13636
+Region Metropolitana,7508690,Santiago,Maipu,521627,133,3922.007519
+Region Metropolitana,7508690,Talagante,El Monte,35923,118,304.4322034
+Region Metropolitana,7508690,Talagante,Isla de Maipo,36219,189,191.6349206
+Region Metropolitana,7508690,Talagante,Padre Hurtado,63250,81,780.8641975
+Region Metropolitana,7508690,Talagante,Talagante,74237,126,589.1825397
+Region Metropolitana,7508690,Talagante,Peñaflor,90201,69,1307.26087
